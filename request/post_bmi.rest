@@ -1,0 +1,9 @@
+POST http://localhost:3003/bmi  
+Content-Type: application/json
+
+{
+  "weight": 72,
+  "height": 180
+}
+
+

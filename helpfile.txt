@@ -1,0 +1,75 @@
+//C:\Users\PC\part9>node -v
+//v18.17.0
+//C:\Users\PC\part9>npm -v
+//9.8.1
+//npm install --location=global ts-node typescript
+//npm install --save-dev ts-node typescript
+//package.json
+//"scripts": {
+//  "ts-node": "ts-node"
+//},
+//npm run ts-node file.ts -- -s --someoption
+//npm run ts-node -- multipliercalc.ts
+//npm install --save-dev @types/node
+//npm install express
+//npm i --save-dev @types/express
+//index.ts
+//const express = require('express');
+//->
+//import express from 'express';
+//app.get('/ping', (req, res) => {
+//->
+//app.get('/ping', (_req, res) => {
+//tsconfig.json
+/*
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitAny": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node"
+  }
+}
+*/
+//Open browser
+//http://localhost:3003/ping
+//->
+//pong
+//http://localhost:3003/hello
+//->
+//Hello Full Stack!
+//http://localhost:3003/bmi
+//error	"malformatted parameters"
+//http://localhost:3003/exercises
+//Cannot GET /exercises
+//npm install --save-dev ts-node-dev
+//package.json
+/*
+  "scripts": {
+      // ...
+      "dev": "ts-node-dev index.ts",
+  },
+*/
+//->
+//npm run dev
+//npm install --save-dev eslint @typescript-eslint/eslint-plugin @typescript-eslint/parser
+//package.json
+/*
+  "scripts": {
+      "start": "ts-node index.ts",
+      "dev": "ts-node-dev index.ts",
+      "lint": "eslint --ext .ts ."
+      //  ...
+  },
+*/
+//npm run lint
+//The next lines are added to the codes to remove lint errors
+//eslint-disable-next-line @typescript-eslint/no-unsafe-argument
+//eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
+//eslint-disable-next-line @typescript-eslint/no-unsafe-call
+
